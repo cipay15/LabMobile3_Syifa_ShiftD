@@ -27,7 +27,7 @@ class Sidemenu extends StatelessWidget {
           ),
           ListTile(
             leading: const Icon(Icons.note),
-            title: const Text('Catatan'),
+            title: const Text('Notes'),
             onTap: () {
               Navigator.pushReplacementNamed(context, '/note');
             },
